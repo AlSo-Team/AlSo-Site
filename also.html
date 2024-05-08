@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AlSo webpage">
+<meta name="keywords" content="unity, terrain, terrain tool, asset">
+<meta name="robots" content="index">
+<title>AlSo</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+  }
+
+  .block {
+    width: 100%;
+  }
+
+  #top {
+    background-color: #E09016;
+    height: 100px;
+  }
+
+  #header {
+    background-color: #FFFFF8;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #header img {
+    width: 270px;
+    height: 170px;
+  }
+
+  #menu {
+    background-color: #F1E0C9;
+    height: 100px;
+  }
+
+  #content {
+    background-color: #C2DEDF;
+    min-height: calc(100vh - 800px); /* Adjusted height to accommodate other blocks */
+  }
+
+  #footer {
+    background-color: #A83131;
+    height: 100px;
+  }
+</style>
+</head>
+<body>
+  <div id="top" class="block"></div>
+  <div id="header" class="block">
+    <img src="logo.png" alt="">
+  </div>
+  <div id="menu" class="block"></div>
+  <div id="content" class="block"></div>
+  <div id="footer" class="block"></div>
+</body>
+</html>
